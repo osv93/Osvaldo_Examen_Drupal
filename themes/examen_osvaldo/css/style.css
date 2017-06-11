@@ -1,0 +1,93 @@
+/**
+ * Place your custom styles here.
+ */
+
+body {
+    font-family: sans-serif;
+}
+
+.views-field-field-foto {
+    float: left;
+    margin-right: 20px;
+}
+
+.filaServicios {
+    padding: 10px;
+}
+
+.campoEspecialidad {
+    margin-top: 10px;
+}
+
+.labelEspecialidad, .labelTipoServicio {
+    float: left;
+    margin-right: 5px;
+}
+
+.nombreDoctor {
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.campoNombreDoctor {
+    margin-top: 10px;
+}
+
+.tituloHistoria {
+    text-align: center;
+    color: #337AB7;
+}
+
+img.img-responsive {
+    border-radius: 5px;
+}
+
+/*Contenedor carousel*/
+.view-content {
+    margin-bottom: 20px;
+}
+
+.imagenUnoHistoria {
+    float: left;
+    margin-right: 15px;
+}
+
+.TextoHistoria1 {
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.footer {
+    background: #0934A9;
+}
+
+header#navbar {
+    background: #0934A9;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border-color:white;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: white;
+}
+
+ul.social-media-links--platforms.platforms.inline.horizontal {
+    text-align: center;
+}
+
+.field--name-field-especialidad, .field--name-field-nombre, .field--name-field-foto,
+.field--name-field-tipo-servicios, .field--name-body, .field--name-field-costos,
+.field--name-field-telefono, .field--name-field-email, .field--name-field-servicios,
+.field--name-field-direcci {
+    margin: 10px;
+}
