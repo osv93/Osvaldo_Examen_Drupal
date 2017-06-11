@@ -91,3 +91,13 @@ ul.social-media-links--platforms.platforms.inline.horizontal {
 .field--name-field-direcci {
     margin: 10px;
 }
+
+ul {
+    list-style: none;
+}
+
+.social-media-links--platforms.horizontal li {
+    display: inline-block;
+    text-align: center;
+    padding: .2em .35em;
+}
