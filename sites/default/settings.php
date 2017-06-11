@@ -763,25 +763,25 @@ $settings['file_scan_ignore_directories'] = [
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-  $databases['default']['default'] = array (
-    'database' => 'examen_drupal',
-    'username' => 'root',
-    'password' => '1234',
-    'prefix' => '',
-    'host' => 'localhost',
-    'port' => '3306',
-    'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-    'driver' => 'mysql',
-  );
   // $databases['default']['default'] = array (
-    // 'database' => 'dp_115360385',
-    // 'username' => 'admin',
-    // 'password' => 'admin',
+    // 'database' => 'examen_drupal',
+    // 'username' => 'root',
+    // 'password' => '1234',
     // 'prefix' => '',
     // 'host' => 'localhost',
     // 'port' => '3306',
     // 'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
     // 'driver' => 'mysql',
   // );
+   $databases['default']['default'] = array (
+     'database' => 'dp_115360385',
+     'username' => 'admin',
+     'password' => 'admin',
+     'prefix' => '',
+     'host' => 'localhost',
+     'port' => '3306',
+     'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+     'driver' => 'mysql',
+   );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/files/config_TOOUXqMKIDn4YshGDO-oY6rhGRcdfg9O7xH26Z53hOz0E4gcEVGBm8RwBmj7R9UEvVRFYVuGVg/sync';
